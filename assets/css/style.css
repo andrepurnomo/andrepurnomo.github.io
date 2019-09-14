@@ -64,3 +64,9 @@ body {
   padding: 20px 0;
   color: #fff;
 }
+
+@media print {
+  .non-url {
+    text-decoration: none !important;
+  }
+}
